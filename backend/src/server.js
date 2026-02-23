@@ -1,7 +1,7 @@
 import http from 'http';
 import dotenv from 'dotenv';
-import app from './src/app.js';
-import connectDB from './src/config/db.js';
+import app from './app.js';
+import connectDB from './config/db.js';
 
 // Load environment variables from .env file
 dotenv.config();
